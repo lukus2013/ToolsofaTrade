@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "ecceb986-73a2-475a-96bd-471863d03fdc": {
+      "ProjectGuid": "ecceb986-73a2-475a-96bd-471863d03fdc",
+      "DisplayName": "ToolsotTrade",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
