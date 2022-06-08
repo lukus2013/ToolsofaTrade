@@ -1,0 +1,537 @@
+﻿++Solution 'ToolsotTrade' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:ToolsotTrade.sln
+++ToolsotTrade
+i:{00000000-0000-0000-0000-000000000000}:ToolsotTrade
+++Connected Services 
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:>89
+++Dependencies
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:>88
+++Properties
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\properties\
+++Controllers
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\controllers\
+++DataAccess
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\dataaccess\
+++ToolRepository.cs
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\dataaccess\toolrepository.cs
+++Models
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\models\
+++Tool.cs
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\models\tool.cs
+++appsettings.json
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\appsettings.json
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\appsettings.json
+++appsettings.Development.json
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\appsettings.development.json
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\appsettings.development.json
+++Program.cs
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\program.cs
+++No service dependencies discovered
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:>90
+++Analyzers
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:analyzers
+++Frameworks
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:frameworks
+++Packages
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:packages
+++launchSettings.json
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\properties\launchsettings.json
+++Microsoft.AspNetCore.Analyzers
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.5\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\microsoft.netcore.app
+++Microsoft.Data.SqlClient (4.1.0)
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:>122
+++Microsoft.Extensions.Configuration.FileExtensions (6.0.0)
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:>123
+++Swashbuckle.AspNetCore (6.3.1)
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:>121
+++bin
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\
+++Debug
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\
+++Release
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\release\
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\release\
+++net6.0
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\release\net6.0\
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\release\net6.0\
+++ref
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\ref\
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\release\net6.0\ref\
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\ref\
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\release\net6.0\ref\
+++obj
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\
+++project.assets.json
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\project.assets.json
+++project.nuget.cache
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\project.nuget.cache
+++ToolsotTrade.csproj.nuget.dgspec.json
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\toolsottrade.csproj.nuget.dgspec.json
+++ToolsotTrade.csproj.nuget.g.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\toolsottrade.csproj.nuget.g.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\toolsottrade.csproj.nuget.g.props
+++ToolsotTrade.csproj.nuget.g.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\toolsottrade.csproj.nuget.g.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\toolsottrade.csproj.nuget.g.targets
+++staticwebassets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\staticwebassets\
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\release\net6.0\staticwebassets\
+++.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\release\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
+++ToolsotTrade.AssemblyInfo.cs
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\toolsottrade.assemblyinfo.cs
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\release\net6.0\toolsottrade.assemblyinfo.cs
+++ToolsotTrade.AssemblyInfoInputs.cache
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\toolsottrade.assemblyinfoinputs.cache
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\release\net6.0\toolsottrade.assemblyinfoinputs.cache
+++ToolsotTrade.assets.cache
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\toolsottrade.assets.cache
+++ToolsotTrade.csproj.AssemblyReference.cache
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\toolsottrade.csproj.assemblyreference.cache
+++ToolsotTrade.GeneratedMSBuildEditorConfig.editorconfig
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\toolsottrade.generatedmsbuildeditorconfig.editorconfig
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\release\net6.0\toolsottrade.generatedmsbuildeditorconfig.editorconfig
+++ToolsotTrade.GlobalUsings.g.cs
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\toolsottrade.globalusings.g.cs
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\release\net6.0\toolsottrade.globalusings.g.cs
+++IToolRepository.cs
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\dataaccess\itoolrepository.cs
+++Imports
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:>141
+++Sdk.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.web\sdk\sdk.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.illink.tasks\sdk\sdk.props
+++Sdk.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.web\sdk\sdk.targets
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.105\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.105\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.105\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.105\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\sdk\sdk.props
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.105\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.105\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.105\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.105\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\sdk\sdk.targets
+++Microsoft.Common.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.props
+++Microsoft.NET.Sdk.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.props
+++Sdk.Razor.CurrentVersion.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.props
+++Microsoft.NET.Sdk.Web.ProjectSystem.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.props
+++Microsoft.NET.Sdk.Publish.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.props
+++Microsoft.NET.Sdk.BeforeCommon.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.beforecommon.targets
+++Microsoft.CSharp.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.targets
+++Microsoft.NET.Sdk.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.targets
+++Microsoft.NET.Compatibility.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.targets
+++NuGet.Build.Tasks.Pack.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
+++Sdk.Razor.CurrentVersion.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.targets
+++Microsoft.NET.Sdk.Web.ProjectSystem.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.targets
+++Microsoft.NET.Sdk.Publish.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.targets
+++Microsoft.NuGet.ImportBefore.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.nuget.importbefore.props
+++NuGet.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.props
+++Microsoft.NET.Sdk.DefaultItems.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.props
+++Microsoft.NET.Sdk.ImportWorkloads.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.props
+++Microsoft.NET.SupportedTargetFrameworks.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.supportedtargetframeworks.props
+++Microsoft.NET.SupportedPlatforms.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.supportedplatforms.props
+++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.windowssdksupportedtargetplatforms.props
+++Microsoft.NET.Sdk.CSharp.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.props
+++Microsoft.NET.ILLink.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.illink.props
+++Microsoft.NET.Compatibility.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.props
+++Microsoft.NET.PackTool.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.props
+++Microsoft.NET.PackProjectTool.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.props
+++Microsoft.NET.Sdk.WindowsDesktop.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.props
+++Microsoft.NET.Windows.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.windows.props
+++Sdk.Razor.StaticAssets.ProjectSystem.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\sdk\sdk.razor.staticassets.projectsystem.props
+++Microsoft.TypeScript.Default.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.default.props
+++Microsoft.NET.Sdk.Web.DefaultItems.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.defaultitems.props
+++Microsoft.NET.DefaultAssemblyInfo.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.defaultassemblyinfo.targets
+++Microsoft.NET.DefaultOutputPaths.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.defaultoutputpaths.targets
+++Microsoft.NET.Sdk.ImportPublishProfile.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importpublishprofile.targets
+++Microsoft.NET.TargetFrameworkInference.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.targetframeworkinference.targets
+++Microsoft.NET.Sdk.Razor.BeforeCommon.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.beforecommon.targets
+++Microsoft.NET.Sdk.ImportWorkloads.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.targets
+++Microsoft.NET.RuntimeIdentifierInference.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.runtimeidentifierinference.targets
+++Microsoft.NET.EolTargetFrameworks.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.eoltargetframeworks.targets
+++Microsoft.NET.NuGetOfflineCache.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.nugetofflinecache.targets
+++Microsoft.Managed.Before.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.before.targets
+++Microsoft.CSharp.CurrentVersion.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.currentversion.targets
+++Microsoft.Managed.After.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.after.targets
+++Microsoft.NET.Sdk.Common.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.common.targets
+++Microsoft.PackageDependencyResolution.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.packagedependencyresolution.targets
+++Microsoft.NET.Sdk.DefaultItems.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.targets
+++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.frameworkreferenceresolution.targets
+++Microsoft.NET.Sdk.Shared.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.shared.targets
+++Microsoft.NET.DisableStandardFrameworkResolution.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.disablestandardframeworkresolution.targets
+++Microsoft.NET.DesignerSupport.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.designersupport.targets
+++Microsoft.NET.GenerateAssemblyInfo.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.generateassemblyinfo.targets
+++Microsoft.NET.GenerateGlobalUsings.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.generateglobalusings.targets
+++Microsoft.NET.GenerateSupportedRuntime.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.generatesupportedruntime.targets
+++Microsoft.NET.ComposeStore.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.composestore.targets
+++Microsoft.NET.CrossGen.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.crossgen.targets
+++Microsoft.NET.ObsoleteReferences.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.obsoletereferences.targets
+++Microsoft.NET.Publish.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.publish.targets
+++Microsoft.NET.PackTool.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.targets
+++Microsoft.NET.PackProjectTool.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.targets
+++Microsoft.NET.PreserveCompilationContext.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.preservecompilationcontext.targets
+++Microsoft.NET.ConflictResolution.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.conflictresolution.targets
+++Microsoft.NET.Sdk.CSharp.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
+++Microsoft.NET.ILLink.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
+++Microsoft.NET.Sdk.Analyzers.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
+++Microsoft.NET.Compatibility.Common.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
+++Microsoft.NET.Sdk.Razor.Configuration.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.configuration.targets
+++Microsoft.NET.Sdk.Razor.CodeGeneration.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.codegeneration.targets
+++Microsoft.NET.Sdk.Razor.SourceGenerators.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.sourcegenerators.targets
+++Microsoft.NET.Sdk.Razor.StaticWebAssets.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.staticwebassets.targets
+++Microsoft.NET.Sdk.Razor.ScopedCss.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.scopedcss.targets
+++Microsoft.NET.Sdk.Razor.JSModules.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.jsmodules.targets
+++Microsoft.NET.Sdk.Razor.GenerateAssemblyInfo.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.generateassemblyinfo.targets
+++Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.mvcapplicationpartsdiscovery.targets
+++Microsoft.NET.Sdk.Razor.DesignTime.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\razor\microsoft.net.sdk.razor.designtime.targets
+++Microsoft.TypeScript.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.targets
+++Microsoft.TypeScript.DotNetCore.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.dotnetcore.targets
+++Microsoft.Web.Designtime.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed.web\microsoft.web.designtime.targets
+++Default.pubxml
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\targets\publishprofiles\default.pubxml
+++Microsoft.NET.Sdk.Publish.ComputeFiles.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\targets\computetargets\microsoft.net.sdk.publish.computefiles.targets
+++Microsoft.NET.Sdk.Publish.FilterFiles.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\targets\copytargets\microsoft.net.sdk.publish.filterfiles.targets
+++Microsoft.NET.Sdk.Publish.CopyFiles.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\targets\copytargets\microsoft.net.sdk.publish.copyfiles.targets
+++Microsoft.NET.Sdk.Publish.TransformFiles.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\targets\transformtargets\microsoft.net.sdk.publish.transformfiles.targets
+++Microsoft.NET.Sdk.Publish.FileSystem.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\targets\publishtargets\microsoft.net.sdk.publish.filesystem.targets
+++Microsoft.NET.Sdk.DotNetCLITool.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\targets\dotnetclitooltargets\microsoft.net.sdk.dotnetclitool.targets
+++Microsoft.Extensions.ApiDescription.Server.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0\build\microsoft.extensions.apidescription.server.props
+++Swashbuckle.AspNetCore.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\.nuget\packages\swashbuckle.aspnetcore\6.3.1\build\swashbuckle.aspnetcore.props
+++Microsoft.NuGet.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\nuget\17.0\microsoft.nuget.props
+++Microsoft.NETCoreSdk.BundledVersions.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\microsoft.netcoresdk.bundledversions.props
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.windowsforms.props
+++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.wpf.props
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android)
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios)
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst)
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos)
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui)
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos)
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten)
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain)
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain\workloadmanifest.targets
+++Microsoft.CSharp.Core.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.csharp.core.targets
+++Microsoft.CSharp.DesignTime.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.csharp.designtime.targets
+++Microsoft.Common.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.targets
+++Microsoft.ServiceModel.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.servicemodel.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.servicemodel.targets
+++Microsoft.NET.Sdk.DefaultItems.Shared.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.shared.targets
+++Microsoft.NETCoreSdk.BundledCliTools.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\microsoft.netcoresdk.bundledclitools.props
+++Microsoft.NET.DefaultPackageConflictOverrides.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.defaultpackageconflictoverrides.targets
+++Microsoft.CodeAnalysis.NetAnalyzers.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
+++Microsoft.CodeAnalysis.NetAnalyzers.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.targets
+++Microsoft.NET.ILLink.Tasks.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.illink.tasks\build\microsoft.net.illink.tasks.props
+++System.Windows.Forms.Analyzers.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.windowsdesktop\targets\system.windows.forms.analyzers.props
+++Microsoft.Managed.Core.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.targets
+++Microsoft.Managed.DesignTime.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
+++Microsoft.Common.CurrentVersion.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
+++Microsoft.Managed.Core.CurrentVersions.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.currentversions.targets
+++Microsoft.NET.props
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.net.props
+++Microsoft.CodeAnalysis.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\codeanalysis\microsoft.codeanalysis.targets
+++Microsoft.Xaml.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.xaml.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.xaml.targets
+++Microsoft.WorkflowBuildExtensions.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.workflowbuildextensions.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.workflowbuildextensions.targets
+++Microsoft.TeamTest.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\teamtest\microsoft.teamtest.targets
+++NuGet.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.targets
+++Microsoft.Docker.ImportAfter.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.docker.importafter.targets
+++Microsoft.NET.Build.Extensions.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.net.build.extensions.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\microsoft.net.build.extensions\microsoft.net.build.extensions.targets
+++Microsoft.NuGet.ImportAfter.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.nuget.importafter.targets
+++Microsoft.Web.ImportAfter.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.web.importafter.targets
+++Microsoft.Extensions.ApiDescription.Server.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0\build\microsoft.extensions.apidescription.server.targets
+++Microsoft.Docker.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\sdks\microsoft.docker.sdk\build\microsoft.docker.targets
+++Microsoft.Web.IISSupport.targets
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed.web\microsoft.web.iissupport.targets
+++ToolsotTrade.sln
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\toolsottrade.sln
+++ToolsotTrade.csproj.CoreCompileInputs.cache
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\toolsottrade.csproj.corecompileinputs.cache
+++ToolsotTrade.MvcApplicationPartsAssemblyInfo.cache
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\toolsottrade.mvcapplicationpartsassemblyinfo.cache
+++ToolsotTrade.MvcApplicationPartsAssemblyInfo.cs
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\toolsottrade.mvcapplicationpartsassemblyinfo.cs
+++ToolsotTrade.pdb
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\toolsottrade.pdb
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\toolsottrade.pdb
+++ToolsotTrade.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\ref\toolsottrade.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\ref\toolsottrade.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\toolsottrade.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\toolsottrade.dll
+++apphost.exe
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\apphost.exe
+++staticwebassets.build.json
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\staticwebassets.build.json
+++staticwebassets.pack.sentinel
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\staticwebassets.pack.sentinel
+++runtimes
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\
+++unix
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\unix\
+++win
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win\
+++win-arm
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win-arm\
+++win-arm64
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win-arm64\
+++win-x64
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win-x64\
+++win-x86
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win-x86\
+++lib
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\unix\lib\
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win\lib\
+++native
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win-arm\native\
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win-arm64\native\
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win-x64\native\
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win-x86\native\
+++netcoreapp3.0
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.0\
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\
+++netcoreapp3.1
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.1\
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.1\
+++netstandard2.0
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\
+++Microsoft.Data.SqlClient.SNI.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win-arm\native\microsoft.data.sqlclient.sni.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win-x64\native\microsoft.data.sqlclient.sni.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win-x86\native\microsoft.data.sqlclient.sni.dll
+++System.Drawing.Common.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.0\system.drawing.common.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\system.drawing.common.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\system.drawing.common.dll
+++Microsoft.Data.SqlClient.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\microsoft.data.sqlclient.dll
+++Microsoft.Win32.SystemEvents.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\microsoft.win32.systemevents.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\microsoft.win32.systemevents.dll
+++System.Windows.Extensions.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\system.windows.extensions.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\system.windows.extensions.dll
+++System.Runtime.Caching.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\system.runtime.caching.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\system.runtime.caching.dll
+++System.Security.Cryptography.ProtectedData.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\system.security.cryptography.protecteddata.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\system.security.cryptography.protecteddata.dll
+++ToolsotTrade.csproj.CopyComplete
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\toolsottrade.csproj.copycomplete
+++ToolsotTrade.genruntimeconfig.cache
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\toolsottrade.genruntimeconfig.cache
+++ToolsotTrade.csproj.FileListAbsolute.txt
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\obj\debug\net6.0\toolsottrade.csproj.filelistabsolute.txt
+++Azure.Core.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\azure.core.dll
+++Azure.Identity.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\azure.identity.dll
+++Microsoft.Bcl.AsyncInterfaces.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\microsoft.bcl.asyncinterfaces.dll
+++Microsoft.Identity.Client.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\microsoft.identity.client.dll
+++Microsoft.Identity.Client.Extensions.Msal.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\microsoft.identity.client.extensions.msal.dll
+++Microsoft.IdentityModel.JsonWebTokens.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\microsoft.identitymodel.jsonwebtokens.dll
+++Microsoft.IdentityModel.Logging.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\microsoft.identitymodel.logging.dll
+++Microsoft.IdentityModel.Protocols.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\microsoft.identitymodel.protocols.dll
+++Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\microsoft.identitymodel.protocols.openidconnect.dll
+++Microsoft.IdentityModel.Tokens.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\microsoft.identitymodel.tokens.dll
+++Microsoft.OpenApi.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\microsoft.openapi.dll
+++Swashbuckle.AspNetCore.Swagger.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\swashbuckle.aspnetcore.swagger.dll
+++Swashbuckle.AspNetCore.SwaggerGen.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\swashbuckle.aspnetcore.swaggergen.dll
+++Swashbuckle.AspNetCore.SwaggerUI.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\swashbuckle.aspnetcore.swaggerui.dll
+++System.Configuration.ConfigurationManager.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\system.configuration.configurationmanager.dll
+++System.IdentityModel.Tokens.Jwt.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\system.identitymodel.tokens.jwt.dll
+++System.Security.Permissions.dll
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\system.security.permissions.dll
+++ToolsotTrade.deps.json
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\toolsottrade.deps.json
+++ToolsotTrade.exe
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\toolsottrade.exe
+++ToolsotTrade.runtimeconfig.json
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\bin\debug\net6.0\toolsottrade.runtimeconfig.json
+++ToolsotTrade.csproj.user
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\toolsottrade.csproj.user
+++HomeController.cs
+++ToolController.cs
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\controllers\toolcontroller.cs
+++CollectionRepository.cs
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\dataaccess\collectionrepository.cs
+++Interface.cs
+++ICollectionRepositorycs
+++ICollectionRepository.cs
+i:{04e826b8-44ec-45b2-b17f-1e16561c2f2c}:c:\users\luke allen\source\repos\lukus2013\toolsofatrade\toolsottrade\dataaccess\icollectionrepository.cs
