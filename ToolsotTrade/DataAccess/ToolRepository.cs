@@ -71,7 +71,6 @@ namespace ToolsotTrade.DataAccess
                         return tool;
                     }
                 }
-
             }
         }
         public Tool GetToolByName(string _name)

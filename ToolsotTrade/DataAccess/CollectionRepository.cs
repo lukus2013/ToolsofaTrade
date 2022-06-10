@@ -24,6 +24,7 @@ namespace ToolsotTrade.DataAccess
             {
                 BuisnessCollection collection = new BuisnessCollection()
                 {
+                    Id = _reader.GetInt32(_reader.GetOrdinal("Id")),
                     Location = _reader.GetString(_reader.GetOrdinal("Location")),
                     ToolId = _reader.GetInt32(_reader.GetOrdinal("ToolId"))
                 };
@@ -32,7 +33,7 @@ namespace ToolsotTrade.DataAccess
             _reader.Close();
             return collections;
         }
-        public List<BuisnessCollection> GetAllCollections()
+        public List<BuisnessCollection> GetAllInCollection()
         {
             using (SqlConnection conn = Connection)
             {
@@ -50,8 +51,28 @@ namespace ToolsotTrade.DataAccess
                 }
             }
         }
-        public List<BuisnessCollection> GetByLocation(string _location)
+        public BuisnessCollection GetBuisnessCollectionByToolId(int _toolId)
         {
+            using (SqlConnection conn = Connection)
+            {
+                conn.Open();
+                using (SqlCommand cmd = conn.CreateCommand())
+                {
+                    cmd.CommandText = @"
+                        SELECT * FROM BuisnessCollection
+                        Where ToolId = @id
+                        ";
+                    cmd.Parameters.AddWithValue("@id", _toolId);
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        var collection = ReadCollection(reader).FirstOrDefault();
+                        return collection;
+                    }
+                }
+            }
+        }
+        public List<BuisnessCollection> GetByLocation(string _location)
+                {
             using (SqlConnection conn = Connection)
             {
                 conn.Open();
@@ -82,11 +103,53 @@ namespace ToolsotTrade.DataAccess
                         VALUES (@Location, @ToolId)
                         ";
                     cmd.Parameters.AddWithValue("@location", _collection.Location);
-                    cmd.Parameters.AddWithValue("@Type", _collection.ToolId);
+                    cmd.Parameters.AddWithValue("@ToolId", _collection.ToolId);
 
                     cmd.ExecuteNonQuery();
                 }
             }
+        }
+        public void UpdateToolInCollection(BuisnessCollection _collection)
+        {
+            using (SqlConnection conn = Connection)
+            {
+                conn.Open();
+                using (SqlCommand cmd = conn.CreateCommand())
+                {
+                    cmd.CommandText = @"
+                        UPDATE [dbo].[BuisnessCollection]
+                        SET Location = @Location, ToolId = @ToolId
+                        WHERE Id = @Id
+                        ";
+                    cmd.Parameters.AddWithValue("@Id", _collection.Id);
+                    cmd.Parameters.AddWithValue("@Location", _collection.Location);
+                    cmd.Parameters.AddWithValue("@ToolId", _collection.ToolId);
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+        public void DeleteToolInCollection(int id)
+        {
+            using (SqlConnection conn = Connection)
+            {
+                conn.Open();
+                using (SqlCommand cmd = conn.CreateCommand())
+                {
+                    cmd.CommandText = @"
+                        DELETE From BuisnessCollection
+                        WHERE Id = @Id
+                        ";
+                    cmd.Parameters.AddWithValue("@Id", id);
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+        public List<BuisnessCollection> GetAllCollections()
+        {
+            throw new NotImplementedException();
         }
     }
 }
