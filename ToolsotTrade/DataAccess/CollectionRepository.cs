@@ -24,6 +24,7 @@ namespace ToolsotTrade.DataAccess
             {
                 BuisnessCollection collection = new BuisnessCollection()
                 {
+                    Id = _reader.GetInt32(_reader.GetOrdinal("Id")),
                     Location = _reader.GetString(_reader.GetOrdinal("Location")),
                     ToolId = _reader.GetInt32(_reader.GetOrdinal("ToolId"))
                 };
@@ -59,7 +60,7 @@ namespace ToolsotTrade.DataAccess
                 {
                     cmd.CommandText = @"
                         SELECT * FROM BuisnessCollection
-                        Where Id = @id
+                        Where ToolId = @id
                         ";
                     cmd.Parameters.AddWithValue("@id", _toolId);
                     using (SqlDataReader reader = cmd.ExecuteReader())
@@ -102,7 +103,7 @@ namespace ToolsotTrade.DataAccess
                         VALUES (@Location, @ToolId)
                         ";
                     cmd.Parameters.AddWithValue("@location", _collection.Location);
-                    cmd.Parameters.AddWithValue("@Type", _collection.ToolId);
+                    cmd.Parameters.AddWithValue("@ToolId", _collection.ToolId);
 
                     cmd.ExecuteNonQuery();
                 }
@@ -144,6 +145,11 @@ namespace ToolsotTrade.DataAccess
                     cmd.ExecuteNonQuery();
                 }
             }
+        }
+
+        public List<BuisnessCollection> GetAllCollections()
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -13,5 +13,10 @@ namespace ToolsotTrade.Controllers
         {
             _collectionRepository = collectionRepository;
         }
+        //[HttpGet]
+        //public IActionResult GetCollection(int toolId)
+        //{
+        //    GetBuisnessCollectionByToolId
+        //}
     }
 }
