@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToolsotTrade", "ToolsotTrad
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "ToolsotTradeClient", "..\ToolsotTradeClient\ToolsotTradeClient.esproj", "{D669A0F9-F793-4D36-8A49-13215B846B1D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TotTClient", "TotTClient", "{2E672E2B-AAEE-434A-B910-D9716BA7B97C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D669A0F9-F793-4D36-8A49-13215B846B1D} = {2E672E2B-AAEE-434A-B910-D9716BA7B97C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF5A3C0B-2AF9-4552-8EA0-EF607B8F001E}
