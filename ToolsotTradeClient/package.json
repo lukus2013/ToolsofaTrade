@@ -1,5 +1,5 @@
 {
-  "name": "ToolsotTradeClient",
+  "name": "toolsottradeclient",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +11,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
     "reactstrap": "^9.0.2",
+    "sass": "^1.52.3",
     "styled-components": "^5.3.5"
   },
   "scripts": {

@@ -45,7 +45,7 @@ const addNewTool = (toolObj) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-const updateTool = (toolObj, obj) => new Promise((resolve, reject) => {
+const updateTool = (id, obj) => new Promise((resolve, reject) => {
     axios
     .put(`${dbURL}/Tool/${id}`, obj)
     .then(() => getTools(),then(resolve))
