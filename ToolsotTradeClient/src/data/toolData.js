@@ -40,7 +40,7 @@ const getToolsByManufacturer = () =>
 
 const addNewTool = (toolObj) => new Promise((resolve, reject) => {
     axios
-    .post(`${dbUrl}/Tool`, toolObj)
+    .post(`${dbURL}/Tool/add`, toolObj)
     .then(resolve)
     .catch(reject);
 });

@@ -10,31 +10,33 @@ import {
   } from "reactstrap";
 import { deleteTool, updateTool } from '../data/toolData';
 
-export default function ToolCard() {
-  return (
+export default function ToolCard({ tool }) {
+    const history = useNavigate();
+
+    return (
     <Card>
-      <CardBody>
+        <CardBody>
         <CardTitle tag="h2">{tool.name}</CardTitle>
         <CardText tag="h4">{tool.type}</CardText>
-        <CardText tag="h4">${tool.manufacturer}</CardText>
-          <Button
+        <CardText tag="h4">{tool.manufacturer}</CardText>
+            <Button
             className="edit-tool-btn"
             onClick={() => {
-              updateTool(tool.id);
-              history("/");
+                history("/addTool")
+                obj = {tool}
             }}
-          >
-            Add To Cart
-          </Button>
-          <Button
+            >
+            Update Tool
+            </Button>
+            <Button
             className="delete-tool-btn"
             onClick={() =>
-              deleteTool(tool.id)
+                deleteTool(tool.toold)
             }
-          >
-            Delete From Cart
-          </Button>
-      </CardBody>
+            >
+            Delete Tool
+            </Button>
+        </CardBody>
     </Card>
   )
 }

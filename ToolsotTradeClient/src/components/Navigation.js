@@ -25,8 +25,8 @@ export default function Navigation() {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link active" to="/games">
-                    My Inventory
+                  <Link className="nav-link active" to="/addTool">
+                    Add a Tool
                   </Link>
                 </li>
               </ul>

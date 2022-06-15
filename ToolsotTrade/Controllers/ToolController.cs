@@ -91,7 +91,7 @@ namespace ToolsotTrade.Controllers
                 return Ok();
             }
         }
-        [HttpPost]
+        [HttpPost("add/")]
         public IActionResult CreateTool(Tool newTool)
         {
             if (newTool == null)

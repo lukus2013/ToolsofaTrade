@@ -14,9 +14,11 @@ export default function Tools() {
 
   return (
     <div>
-        {tools.map((tool) => (
-            <ToolCard key={tool.id} tool={tool} />
-        ))}
+        {tools.map((tool) => {
+            return (
+                <ToolCard key={tool.toolId} tool={tool} />
+            )
+        })}
     </div>
   )
 }
