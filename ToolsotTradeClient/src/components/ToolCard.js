@@ -8,7 +8,7 @@ import {
     CardTitle,
     Button,
   } from "reactstrap";
-import { deleteTool, updateTool } from '../data/toolData';
+import { deleteTool } from '../data/toolData';
 
 export default function ToolCard({ tool }) {
     const history = useNavigate();

@@ -24,3 +24,4 @@ const deleteInventory = (id) => new Promise((resolve, reject) => {
         .catch(reject);
     });
 
+export { getInventory, updateToolLocation, deleteInventory };

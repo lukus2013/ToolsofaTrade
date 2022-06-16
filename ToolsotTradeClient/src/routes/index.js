@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "../views/Home";
 import Tools from "../views/Tools"
 import NewTool from "../views/NewTool"
+import Inventory from "../views/Inventory";
 
 export default function Routing() {
   return (
@@ -10,6 +11,7 @@ export default function Routing() {
       <Route exact path='/' element={<Home />} />
       <Route exact path='/tools' element={<Tools />} />
       <Route exact path='/addTool' element={<NewTool />} />
+      <Route exact path='/inventory' element={<Inventory />} />
     </Routes>
   );
 }

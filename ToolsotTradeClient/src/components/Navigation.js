@@ -29,6 +29,11 @@ export default function Navigation() {
                     Add a Tool
                   </Link>
                 </li>
+                <li className="nav-item">
+                  <Link className="nav-link active" to="/inventory">
+                    Inventory
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
