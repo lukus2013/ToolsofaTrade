@@ -9,7 +9,7 @@ import { updateToolLocation } from '../data/inventoryData';
 
 
 const initialState = {
-    toolId: '',
+    toolId: 0,
     name: '',
     type: '',
     manufacturer: '',
@@ -20,32 +20,44 @@ export default function NewToolForm({ inventory }) {
     const [formInput, setFormInput] = useState(initialState);
     const history = useNavigate();
     const {id} = useParams();
+    const [toolLoc, setToolLoc] = useState({});
 
     useEffect(() => {
       if (id) {
           getToolById(id).then(setFormInput);
-          console.warn(formInput);
         }
-    }, []);
-
-    const resetForm = () => {
+      }, []);
+      
+      const resetForm = () => {
         setFormInput(initialState);
-    };
+      };
+      
+      useEffect(() => {
+        createToolObj();        
+    }, [formInput]);
 
     const handleChange = (e) => {
         setFormInput((prevState) => ({
             ...prevState,
             [e.target.name]: e.target.value,
         }));
-    };
+    }; 
+    
+    const createToolObj = () => {
+      const dataLoc = {
+        tooldId: id,
+        location:formInput.location,
+      };
+        setToolLoc(dataLoc)
+    }
 
-    const handleClick = (e) => {
+      const handleClick = (e) => {
         e.preventDefault();
-        if (obj.id) {
-            updateTool(obj.id, formInput).then(() => {
-                history("/inventory");
-            });
-            updateToolLocation(obj.id, obj).then();
+        if (inventory && id) {
+        updateToolLocation(formInput, id).then();
+        updateTool(id, formInput).then(() => {
+            history("/inventory");
+          });
         } else {
             addNewTool({ ...formInput }).then(() => {
                 resetForm();
@@ -57,16 +69,6 @@ export default function NewToolForm({ inventory }) {
   return (
     <div className='form-container'>
       <Form onSubmit={handleClick}>
-      <FormGroup className='hidden-div'>
-          <Label for="toolId">Tool toolId:</Label>
-          <Input
-            onChange={(e) => handleChange(e)}
-            value={formInput.toolId || ''}
-            type="hidden"
-            name="toolId"
-            id="toolId"
-          />
-        </FormGroup>
         <FormGroup>
           <Label for="name">Tool Name:</Label>
           <Input
@@ -98,16 +100,24 @@ export default function NewToolForm({ inventory }) {
           />
         </FormGroup>
         { id ? (
-            <FormGroup>
-            <Label for="location">Location:</Label>
-            <Input
-              onChange={(e) => handleChange(e)}
-              value={formInput.location || ''}
-              type="text"
-              name="location"
-              id="location"
-            />
-          </FormGroup>
+          // <><FormGroup className='hidden-div'>
+          //   <Label for="toolId">Tool toolId:</Label>
+          //   <Input
+          //     onChange={(e) => handleChange(e)}
+          //     value={formInput.toolId || ''}
+          //     type="hidden"
+          //     name="toolId"
+          //     id="toolId" />
+          // </FormGroup>
+          <FormGroup>
+              <Label for="location">Location:</Label>
+              <Input
+                onChange={(e) => handleChange(e)}
+                value={formInput.location || ''}
+                type="text"
+                name="location"
+                id="location" />
+            </FormGroup>
         ): ( null )}
         <Button type="submit">Submit</Button>
       </Form>
@@ -117,10 +127,16 @@ export default function NewToolForm({ inventory }) {
 
 
 NewToolForm.propTypes = {
-  inventory: PropTypes.shape(PropTypes.obj)
+  inventory: PropTypes.shape({
+    toolId: PropTypes.number,
+    name: PropTypes.string,
+    type: PropTypes.string,
+    manufacturer: PropTypes.string,
+    location: PropTypes.string,
+    })
 };
 
 
 NewToolForm.defaultProps = {
-  inventory: null,
+  inventory: {},
 };
