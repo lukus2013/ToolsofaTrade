@@ -10,17 +10,18 @@ const getInventory = () =>
             .catch(reject);
     });
 
-const updateToolLocation = (id, obj) => new Promise((resolve, reject) => {
+const updateToolLocation = (obj, id) => new Promise((resolve, reject) => {
         axios
         .put(`${dbURL}/Inventory/${id}`, obj)
-        .then(() => getInventory(),then(resolve))
+        .then(() => getInventory().then(resolve))
         .catch(reject);
     });
 
 const deleteInventory = (id) => new Promise((resolve, reject) => {
         axios
         .delete(`${dbURL}/Tool/${id}`)
-        .then(() => getTools().then(resolve))
+        .then(() => getInventory().then(resolve))
         .catch(reject);
     });
 
+export { getInventory, updateToolLocation, deleteInventory };

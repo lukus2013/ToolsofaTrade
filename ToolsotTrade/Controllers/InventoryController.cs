@@ -27,7 +27,7 @@ namespace ToolsotTrade.Controllers
         {
             return Ok(facade.GetInventory());
         }
-        [HttpPut]
+        [HttpPut("{toolId}")]
         public IActionResult PlaceTool([FromBody] PlaceToolRequest request)
         {
             var tool = repository.GetToolById(request.ToolId);

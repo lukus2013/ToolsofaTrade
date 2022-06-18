@@ -10,10 +10,10 @@ const getTools = () =>
             .catch(reject);
     });
 
-const getToolById = () =>
+const getToolById = (id) =>
     new Promise((resolve, reject) => {
         axios.get(`${dbURL}/Tool/id/${id}`)
-        .then(resolve)
+        .then((response) => resolve(response.data))
         .catch(reject);
     });
 
@@ -39,6 +39,7 @@ const getToolsByManufacturer = () =>
     });
 
 const addNewTool = (toolObj) => new Promise((resolve, reject) => {
+    toolObj.toolId = 0;
     axios
     .post(`${dbURL}/Tool/add`, toolObj)
     .then(resolve)
@@ -48,7 +49,7 @@ const addNewTool = (toolObj) => new Promise((resolve, reject) => {
 const updateTool = (id, obj) => new Promise((resolve, reject) => {
     axios
     .put(`${dbURL}/Tool/${id}`, obj)
-    .then(() => getTools(),then(resolve))
+    .then(() => getTools().then(resolve))
     .catch(reject);
 })
 
