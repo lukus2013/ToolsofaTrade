@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { deleteInventory } from '../data/inventoryData';
 import PropTypes from "prop-types";
 import {
@@ -11,19 +12,24 @@ import {
 
 export default function InventoryCard({ inventory }) {
   return (
-    <Card>
+    <Card className='inventory-card'>
     <CardBody>
     <CardTitle tag="h2">{inventory.name}</CardTitle>
     <CardText tag="h4">{inventory.type}</CardText>
     <CardText tag="h4">{inventory.manufacturer}</CardText>
     <CardText tag="h4">{inventory.location}</CardText>
         <Button
-        className="delete-invnetory-btn"
-        onClick={() =>
-            deleteInventory(inventory.toolId)
-        }
-        >
-        Delete Inventory Tool
+            className="btn btn-danger"
+            onClick={() =>
+                deleteInventory(inventory.toolId)
+            }
+            >
+            Delete Inventory Tool
+        </Button>
+        <Button>
+            <Link inventory={inventory} to={`/edit/${inventory.toolId}`} className="btn btn-primary">
+                Edit
+            </Link>
         </Button>
     </CardBody>
 </Card>
@@ -31,11 +37,5 @@ export default function InventoryCard({ inventory }) {
 }
 
 InventoryCard.propTypes = {
-    inventory: PropTypes.shape({
-      name: PropTypes.string,
-      id: PropTypes.number,
-      type: PropTypes.string,
-      manufacturer: PropTypes.string,
-      location: PropTypes.string
-    }).isRequired
+    inventory: PropTypes.shape(PropTypes.obj).isRequired,
   };

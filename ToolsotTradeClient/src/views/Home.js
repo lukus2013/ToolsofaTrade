@@ -5,7 +5,7 @@ export default function Home() {
   const history = useNavigate();
 
     const handleClick = () => {
-      history('/tools');
+      history('/inventory');
     };
 
   return (

@@ -20,11 +20,6 @@ export default function Navigation() {
             <div className="navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link className="nav-link active" to="/tools">
-                    Tools
-                  </Link>
-                </li>
-                <li className="nav-item">
                   <Link className="nav-link active" to="/addTool">
                     Add a Tool
                   </Link>

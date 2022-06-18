@@ -13,7 +13,7 @@ export default function Inventory() {
     });
 
   return (
-    <div>
+    <div className='inventory-page'>
         {inventorys.map((inventory) => {
             return (
                 <InventoryCard key={inventory.toolId} inventory={inventory} />

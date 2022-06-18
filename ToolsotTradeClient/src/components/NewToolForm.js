@@ -1,31 +1,32 @@
 import React, { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import {
     Button, Form, FormGroup, Label, Input,
   } from "reactstrap";
-import { addNewTool, updateTool } from '../data/toolData';
+import { addNewTool, getToolById, updateTool } from '../data/toolData';
 import PropTypes from "prop-types";
+import { updateToolLocation } from '../data/inventoryData';
 
 
 const initialState = {
+    toolId: '',
     name: '',
     type: '',
     manufacturer: '',
+    location: '',
 };
 
-export default function NewToolForm( obj = {} ) {
+export default function NewToolForm({ inventory }) {
     const [formInput, setFormInput] = useState(initialState);
     const history = useNavigate();
+    const {id} = useParams();
 
     useEffect(() => {
-        if (obj.id) {
-            setFormInput({
-                name: obj.name,
-                type: obj.type,
-                manufacturer: obj.manufacturer
-            });
+      if (id) {
+          getToolById(id).then(setFormInput);
+          console.warn(formInput);
         }
-    }, [obj]);
+    }, []);
 
     const resetForm = () => {
         setFormInput(initialState);
@@ -42,12 +43,13 @@ export default function NewToolForm( obj = {} ) {
         e.preventDefault();
         if (obj.id) {
             updateTool(obj.id, formInput).then(() => {
-                history("/tools");
+                history("/inventory");
             });
+            updateToolLocation(obj.id, obj).then();
         } else {
             addNewTool({ ...formInput }).then(() => {
                 resetForm();
-                history("/tools");
+                history("/inventory");
             });
         }
     };
@@ -55,6 +57,16 @@ export default function NewToolForm( obj = {} ) {
   return (
     <div className='form-container'>
       <Form onSubmit={handleClick}>
+      <FormGroup className='hidden-div'>
+          <Label for="toolId">Tool toolId:</Label>
+          <Input
+            onChange={(e) => handleChange(e)}
+            value={formInput.toolId || ''}
+            type="hidden"
+            name="toolId"
+            id="toolId"
+          />
+        </FormGroup>
         <FormGroup>
           <Label for="name">Tool Name:</Label>
           <Input
@@ -85,6 +97,18 @@ export default function NewToolForm( obj = {} ) {
             id="manufacturer"
           />
         </FormGroup>
+        { id ? (
+            <FormGroup>
+            <Label for="location">Location:</Label>
+            <Input
+              onChange={(e) => handleChange(e)}
+              value={formInput.location || ''}
+              type="text"
+              name="location"
+              id="location"
+            />
+          </FormGroup>
+        ): ( null )}
         <Button type="submit">Submit</Button>
       </Form>
     </div>
@@ -93,14 +117,10 @@ export default function NewToolForm( obj = {} ) {
 
 
 NewToolForm.propTypes = {
-    obj: PropTypes.shape({
-      name: PropTypes.string,
-      id: PropTypes.number,
-      type: PropTypes.string,
-      manufacturer: PropTypes.string,
-    }),
-  };
+  inventory: PropTypes.shape(PropTypes.obj)
+};
 
-  NewToolForm.defaultProps = {
-    obj: null,
-  };
+
+NewToolForm.defaultProps = {
+  inventory: null,
+};

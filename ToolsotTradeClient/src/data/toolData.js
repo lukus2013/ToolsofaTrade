@@ -10,10 +10,10 @@ const getTools = () =>
             .catch(reject);
     });
 
-const getToolById = () =>
+const getToolById = (id) =>
     new Promise((resolve, reject) => {
         axios.get(`${dbURL}/Tool/id/${id}`)
-        .then(resolve)
+        .then((response) => resolve(response.data))
         .catch(reject);
     });
 
