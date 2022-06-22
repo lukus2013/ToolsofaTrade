@@ -131,6 +131,8 @@ INSERT INTO [dbo].[Tools] ([Name], [Type], [Manufacturer]) VALUES ('Torque Wrenc
 
 INSERT INTO [dbo].[Tools] ([Name], [Type], [Manufacturer]) VALUES ('40in Breaker Bar','Auto','Capri');
 
+
+
 INSERT INTO [dbo].[BuisnessCollection] ([Location], [ToolId]) VALUES ('Nashville', 1)
 
 INSERT INTO [dbo].[BuisnessCollection] ([Location], [ToolId]) VALUES ('Nashville', 2)
