@@ -58,6 +58,7 @@ GO
 CREATE TABLE [dbo].[Tools]
 
 (
+
 	[ToolId] INT NOT NULL IDENTITY,
 	
 	[Name] NVARCHAR(160) NOT NULL,
@@ -73,6 +74,7 @@ GO
 CREATE TABLE [dbo].[BuisnessCollection]
 
 (
+
 	[Id] INT NOT NULL IDENTITY
 	
 	[Location] NVARCHAR(50) NOT NULL
