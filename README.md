@@ -17,7 +17,6 @@ This App was built with the intention for the user to see what tools they own an
   # DB creation
     - This is the SQL query needed to  create the DB and some sample data.
 
-(
 
 /*******************************************************************************
 
@@ -171,4 +170,3 @@ INSERT INTO [dbo].[BuisnessCollection] ([Location], [ToolId]) VALUES ('Franklin'
 
 INSERT INTO [dbo].[BuisnessCollection] ([Location], [ToolId]) VALUES ('Franklin', 16)
 
-)
